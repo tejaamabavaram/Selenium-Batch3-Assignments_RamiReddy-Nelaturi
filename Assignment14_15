@@ -1,0 +1,35 @@
+CSS selector 
+
+1) PIM :
+
+driver.findElement(By.cssSelector("#menu_pim_viewPimModule"));
+
+2) time :
+
+driver.findElement(By.cssSelector("#menu_time_viewTimeModule"));
+
+3) Maintenence:
+
+driver.findElement(By.cssSelector("#menu_maintenance_purgeEmployee"));
+
+4) Assignleave
+
+driver.findElement(By.cssSelector("#dashboard-quick-launch-panel-menu_holder > table > tbody > tr > td:nth-child(1) > div"));
+
+5) Timesheets
+
+driver.findElement(By.cssSelector("#dashboard-quick-launch-panel-menu_holder > table > tbody > tr > td:nth-child(3) > div"));
+
+6) Piechart:
+
+driver.findElement(By.cssSelector("#div_graph_display_emp_distribution > canvas:nth-child(2)"));
+
+
+XPATH ;
+
+
+driver.findElement(By.xpath("//a[@id='menu_admin_viewAdminModule']"))
+driver.findElement(By.xpath("//input[@id='MP_link']"))
+driver.findElement(By.xpath("//a[@id='welcome']"))
+driver.findElement(By.xpath("//span[text()='Leave List']/parent::a/parent::div"))
+
